@@ -1,0 +1,16 @@
+.Page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  &__content {
+    width: 80%;
+    height: calc(100vh - 100px);
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+
+  .MuiTableContainer-root {
+    height: 100%;
+  }
+}

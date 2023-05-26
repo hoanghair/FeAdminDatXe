@@ -1,0 +1,44 @@
+.Modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__content {
+    width: 600px;
+    max-width: 95%;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 20px;
+
+    &-title {
+      font-size: 25px;
+      margin-bottom: 10px;
+    }
+
+    &-button {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 10px;
+    }
+  }
+
+  .input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+.ModalOrder {
+  p {
+    span {
+      font-weight: 600;
+    }
+
+    line-height: 25px;
+    font-size: 16px;
+  }
+}
+
+.Order_icon {
+  cursor: pointer;
+}
